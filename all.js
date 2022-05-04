@@ -31,6 +31,9 @@ window.onload=function(){
         }
       ],
     });
-    $('.slick-arrow').text('');
+    // $('.slick-arrow').text('');
+    // $('body').resize(function(){
+    //   $('.slick-arrow').text('');
+    // })
   };
   

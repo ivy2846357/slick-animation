@@ -1,8 +1,5 @@
-/* body{
-  background-color: black;
-} */
 .slider{
-  width:1200px;
+  width: 70%;
   margin:0 auto;
   text-align: center;
   padding:20px;
@@ -31,6 +28,7 @@
   border: none;
   outline: none;
   cursor: pointer;
+  color: transparent;
 }
 .slick-next{
   top: 50%;
@@ -44,4 +42,8 @@
 }
 .slick-next ::before{
   opacity: 0;
+}
+
+.slick-dots{
+  display: none !important;
 }
