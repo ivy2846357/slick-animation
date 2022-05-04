@@ -1,0 +1,47 @@
+/* body{
+  background-color: black;
+} */
+.slider{
+  width:1200px;
+  margin:0 auto;
+  text-align: center;
+  padding:20px;
+  color:white;
+  position: relative;
+}
+.box{
+  background-color: #fff;
+  color: #102131;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+.poster{
+  width: 90%;
+  display: block;
+  margin: 1rem;
+}
+.slick-arrow{
+  position: absolute;
+  transform: translateY(-50%);
+  background-image: url('./img/arrow-right.svg');
+  background-repeat: no-repeat;
+  height: 3rem;
+  width: 2rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.slick-next{
+  top: 50%;
+  right: -2rem;
+}
+.slick-prev{
+  left: -3rem;
+  bottom: 50%;
+
+  transform: rotate(180deg);
+}
+.slick-next ::before{
+  opacity: 0;
+}
